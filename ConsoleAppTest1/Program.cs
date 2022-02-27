@@ -7,9 +7,6 @@ namespace ConsoleAppTest1
         static void Main(string[] args)
         {
             string function = "";
-            double valueOne;
-            double valueTwo;
-
             while (function != "exit")
             {
                 Console.Write("Press operator [+, -, *, /] or type 'exit' to terminate program: ");
@@ -18,10 +15,10 @@ namespace ConsoleAppTest1
                 if (function != "exit")
                 {
                     Console.Write("First number: ");
-                    valueOne = Convert.ToDouble(Console.ReadLine());
+                    double valueOne = Convert.ToDouble(Console.ReadLine());
 
                     Console.Write("Second Number: ");
-                    valueTwo = Convert.ToDouble(Console.ReadLine());
+                    double valueTwo = Convert.ToDouble(Console.ReadLine());
 
                     if (function == "+")
                     {

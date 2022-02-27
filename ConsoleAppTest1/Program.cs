@@ -15,31 +15,32 @@ namespace ConsoleAppTest1
                 Console.Write("Press operator [+, -, *, /] or type 'exit' to terminate program: ");
                 function = Console.ReadLine();
 
-                //if (function != "exit")
-                //{
+                if (function != "exit")
+                {
                     Console.Write("First number: ");
                     valueOne = Convert.ToDouble(Console.ReadLine());
 
                     Console.Write("Second Number: ");
                     valueTwo = Convert.ToDouble(Console.ReadLine());
-                //}
 
-                if (function == "+")
-                {
-                    Console.WriteLine(valueOne + valueTwo);
-                } 
-                else if (function == "-")
-                {
-                    Console.WriteLine(valueOne - valueTwo);
+                    if (function == "+")
+                    {
+                        Console.WriteLine(valueOne + valueTwo);
+                    }
+                    else if (function == "-")
+                    {
+                        Console.WriteLine(valueOne - valueTwo);
+                    }
+                    else if (function == "*")
+                    {
+                        Console.WriteLine(valueOne * valueTwo);
+                    }
+                    else if (function == "/")
+                    {
+                        Console.WriteLine(valueOne / valueTwo);
+                    }
                 }
-                else if (function == "*")
-                {
-                    Console.WriteLine(valueOne * valueTwo);
-                } 
-                else if (function == "/")
-                {
-                    Console.WriteLine(valueOne / valueTwo);
-                }
+
             }
 
             Console.Write("Press the 'enter' key to exit... ");

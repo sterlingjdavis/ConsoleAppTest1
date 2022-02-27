@@ -13,3 +13,6 @@ C:\Users\sfdav\source\repos\ConsoleAppTest1\ConsoleAppTest1\obj\Debug\net6.0\ref
 C:\Users\sfdav\source\repos\ConsoleAppTest1\ConsoleAppTest1\obj\Debug\net6.0\ConsoleAppTest1.pdb
 C:\Users\sfdav\source\repos\ConsoleAppTest1\ConsoleAppTest1\obj\Debug\net6.0\ConsoleAppTest1.genruntimeconfig.cache
 C:\Users\sfdav\source\repos\ConsoleAppTest1\ConsoleAppTest1\obj\Debug\net6.0\ref\ConsoleAppTest1.dll
+C:\Users\Acer\Source\Repos\Pacinini\ConsoleAppTest1\ConsoleAppTest1\obj\Debug\net6.0\ConsoleAppTest1.dll
+C:\Users\Acer\Source\Repos\Pacinini\ConsoleAppTest1\ConsoleAppTest1\obj\Debug\net6.0\refint\ConsoleAppTest1.dll
+C:\Users\Acer\Source\Repos\Pacinini\ConsoleAppTest1\ConsoleAppTest1\obj\Debug\net6.0\ConsoleAppTest1.pdb
